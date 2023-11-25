@@ -1,3 +1,4 @@
+"""
 <h1>Parser Coding Challenge</h1>
 <h2>Exercise</h2>
 <span>In this exercise, a C, C++ or Python application should be written that prints the layout of the sample
@@ -36,3 +37,6 @@ Etc. etc.<br>
 Bonus 1: Which problem can occur if a box has a very large size?<br>
 Bonus 2: The MDAT box contains base64 encoded images. Extract those images to files.<br>
 </span>
+"""
+from .app import Parser as Parser
+from .box import Box as Box
